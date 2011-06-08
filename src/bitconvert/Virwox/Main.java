@@ -49,12 +49,12 @@ public class Main extends Activity implements RadioGroup.OnCheckedChangeListener
 	int Amount = 0;
     int Total = 0;
     float SubTotal;
-    float SelectedBuy;
-    String SelectedCurrency;
+    static float SelectedBuy;
+    static String SelectedCurrency;
             	
     //Persistent variables
     private SharedPreferences Variables;
-    private float BTCSell;
+    private static float BTCSell;
     private float GBPBuy, USDBuy, EURBuy;
     private String DateTime;
     private String Selected;
@@ -255,6 +255,30 @@ public class Main extends Activity implements RadioGroup.OnCheckedChangeListener
 	    TextView tv = (TextView)findViewById(R.id.CurrentRatetxt);
         tv.setText(s);
 	}
+    
+    public static String widgetrate()
+    {
+    	float holder;
+		holder = (BTCSell/SelectedBuy);
+		//protects against first install error's before any data is synced due to 0/0 issue
+		if (BTCSell+SelectedBuy==0){
+			holder=0;
+		}
+		BigDecimal payment = new BigDecimal(holder);
+		//Initialise variable as UK default
+		NumberFormat n = NumberFormat.getCurrencyInstance(Locale.UK);;
+		//load correct currency format base on location		
+    	if (SelectedCurrency.equals("USD")){
+    		n = NumberFormat.getCurrencyInstance(Locale.US);
+    	} 
+    	else if (SelectedCurrency.equals("EUR")){
+    		n = NumberFormat.getCurrencyInstance(Locale.FRANCE);
+    	}	     
+	    double doublePayment = payment.doubleValue();
+	    String s = n.format(doublePayment);
+	    return s;
+    }
+    
     
     void Calculate(){
     	//load the correct variable to selected currency

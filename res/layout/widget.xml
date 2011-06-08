@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="90px" android:layout_height="110px" android:background="@drawable/widget" android:orientation="vertical">
+    <FrameLayout android:layout_height="fill_parent" android:id="@+id/frameLayout1" android:layout_width="wrap_content" android:minHeight="90px" android:minWidth="110px" android:layout_gravity="center_vertical|center_horizontal|center">
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="Current Rate" android:textColor="@android:color/black" android:gravity="center_horizontal" android:shadowRadius="0.1" android:shadowColor="@android:color/white" android:paddingTop="5px" android:layout_gravity="center_horizontal" android:textSize="5px"></TextView>
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center_vertical|center_horizontal|center" android:textColor="@android:color/black" android:text="@+id/TextView01" android:id="@+id/TextView01" android:layout_gravity="center_vertical|center_horizontal|center"></TextView>
+    </FrameLayout>
+</LinearLayout>
