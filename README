@@ -1,0 +1,48 @@
+BitConvert - BitCoins to YourCoins
+The world only VirWox based BitCoin currency convertor
+By Phillip James Wylie
+
+
+
+Currency conversion for bitcoin to standard currency via the VirWox.com system.
+
+This system works based on the usage of the market order system include the fees that are required to perform these actions, amounts can only be traded for and against solid amounts such as 1Bitcoin as apposed to 0.01Bitcoin or £10 as opposed to £10.50.
+
+
+This app also allows the user;
+
+To switch between 3 currency types USD/EURO/GBP 
+Choose to include the fee's that virwox charges or not
+Select to include the paypal withdrawal charge in the conversion or not
+
+This app will not faciliate direct transactions due to the limited nature of the VirWox API
+
+
+
+
+This app is designed to be very simple to use and can also be used as a currency watcher for the Virwox currency market
+
+
+
+To install
+
+1. download the .apk file found in the Release folder
+2. transfer the .apk to your android device (running android 1.6 or higher)
+3. use a file manager to select and install the .apk (such as androzip)
+
+Using the app
+
+1. open the app as any other application on your device
+2. if thet app is not sync'd or you wish to retrieve the most upto date values
+	Connect to the internet wifi or mobile internet and press 'Sync Rates'
+3. Select your currency of choice to convert to USD/GBP/EURO
+4. enter the amount of bitcoins you wish to convert to your chosen currency
+5. press 'Calculate'
+
+
+Discliamer - you will need a VirWox account (https://www.virwox.com/register.php) to trade
+		on the virwox network, virwox is designed for Second life transactions but
+		a second life account/avatar is not required to use the market.
+
+
+Donations/Tips -> 1Mq2fn2ftbdnedGndVmGk1tXQqx6RmjLDi
