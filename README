@@ -6,11 +6,13 @@ By Phillip James Wylie
 
 Currency conversion for bitcoin to standard currency via the VirWox.com system.
 
-This system works based on the usage of the market order system include the fees that are required to perform these actions, amounts can only be traded for and against solid amounts such as 1Bitcoin as apposed to 0.01Bitcoin or £10 as opposed to £10.50.
+This system works based on the usage of the market order system include the fees that are required to perform these actions, amounts can only be traded for and against solid amounts such as 1Bitcoin as apposed to 0.01Bitcoin or 10GBP as opposed to 10.50GBP.
 
 
 This app also allows the user;
 
+Supports all three major currency's
+Stores data offline and between session's
 To switch between 3 currency types USD/EURO/GBP 
 Choose to include the fee's that virwox charges or not
 Select to include the paypal withdrawal charge in the conversion or not
