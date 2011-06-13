@@ -6,7 +6,9 @@ By Phillip James Wylie
 
 Currency conversion for bitcoin to standard currency via the VirWox.com system.
 
-This system works based on the usage of the market order system include the fees that are required to perform these actions, amounts can only be traded for and against solid amounts such as 1Bitcoin as apposed to 0.01Bitcoin or 10GBP as opposed to 10.50GBP.
+This system works based on the usage of the market order system include the fees that are required to perform these
+actions, amounts can only be traded for and against solid amounts such as 1Bitcoin as apposed to 
+0.01Bitcoin or 10GBP as opposed to 10.50GBP.
 
 
 This app also allows the user;
@@ -22,7 +24,8 @@ This app will not faciliate direct transactions due to the limited nature of the
 
 
 
-This app is designed to be very simple to use and can also be used as a currency watcher for the Virwox currency market
+This app is designed to be very simple to use and can also be used as a currency watcher for the 
+Virwox currency market
 
 
 
